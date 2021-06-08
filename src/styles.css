@@ -17,14 +17,49 @@ section {
 }
 
 footer { 
-    height: 500px;
+    height: 300px;
     background-color:#121214;
+    color: #e1e1e6;
     margin-top: 80px;
+    padding-top: 60px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;   
+}
+
+.nav-about {
+    color: #e1e1e6;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.nav-about:hover {
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.nav-project {
+    color: #e1e1e6;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.nav-project:hover {
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.nav-contact {
+    color: #e1e1e6;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.nav-contact:hover {
+    font-weight: 600;
+    font-size: 31px;
 }
 
 ul {
@@ -53,6 +88,10 @@ p {
     font-size: 28px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .subtext {
     font-size: 15px;
     font-weight: 300;
@@ -70,7 +109,7 @@ p {
 }   
 
 .button {
-    width: 165px;
+    width: 160px;
     height: 47px;
     border: none;
     border-radius: 30px;
@@ -78,17 +117,18 @@ p {
     text-align: center;
     cursor: pointer;
     color: white;
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 500;
     margin-top: 21px;
 }
 
 .button:hover {
     background-color: #077539;
+    font-weight: 600;
 }
 
 .socials {
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 .logo {
@@ -97,8 +137,34 @@ p {
 
 }
 
-.social {
+.social-in {
     margin-bottom: 20px;
+}
+
+.social-in:hover {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+.social-tw {
+    margin-bottom: 20px;
+}
+
+.social-tw:hover {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 15px;
+    
+}
+
+.social-gt {
+    margin-bottom: 20px;
+}
+
+.social-gt:hover {
+    width: 45px;
+    height: 45px;
 }
 
 .sub-section {
@@ -132,6 +198,13 @@ p {
     display: flex;
     justify-content: space-around;
     padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .project-card {
@@ -192,4 +265,46 @@ p {
 .btn-github:hover {
     background: #121214;
     color:#e1e1e6;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: #e1e1e6;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #202024;
+        margin: 0px;
+
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #202024;
+
+    }
+
+    .logo {
+        display: none;
+    }
 }
