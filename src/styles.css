@@ -85,7 +85,7 @@ h2 {
 p {
     margin: 0;
     font-weight: 300;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 a {
@@ -109,8 +109,6 @@ a {
 }   
 
 .button {
-    width: 160px;
-    height: 47px;
     border: none;
     border-radius: 30px;
     background-color: #0dad55;
@@ -118,13 +116,14 @@ a {
     cursor: pointer;
     color: white;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 300;
     margin-top: 21px;
+    padding: 5px 15px;
 }
 
 .button:hover {
     background-color: #077539;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .socials {
