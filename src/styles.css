@@ -312,17 +312,17 @@ a {
 .input-name {
     font-size: 15px;
     margin-right: 5px;
-    width: 299px;
+    width: 304px;
     border-radius: 5px;
-    padding: 3px 6px;
+    padding: 7px 7px;
     border: none;
 }
 
 .input-email {
     font-size: 15px;
-    width: 299px;
+    width: 304px;
     border-radius: 5px;
-    padding: 3px 6px;
+    padding: 7px 7px;
     border: none;
 }
 
@@ -330,13 +330,14 @@ a {
     border-radius: 6px;
     border: none;
     margin: 9px 0;
+    padding: 3px 6px;
 }
 
 .submit {
-    width: 607px;
+    width: 621px;
     background-color: #0dad55;
     color: #e1e1e6;
-    padding: 5px;
+    padding: 7px;
     font-size: 15px;
     border-radius: 7px;
     border: none;
