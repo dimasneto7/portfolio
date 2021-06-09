@@ -17,11 +17,11 @@ section {
 }
 
 footer { 
-    height: 300px;
     background-color:#121214;
     color: #e1e1e6;
     margin-top: 80px;
-    padding-top: 60px;
+    padding: 40px 0;
+    
 }
 
 nav {
@@ -308,3 +308,41 @@ a {
         display: none;
     }
 }
+
+.input-name {
+    font-size: 15px;
+    margin-right: 5px;
+    width: 299px;
+    border-radius: 5px;
+    padding: 3px 6px;
+    border: none;
+}
+
+.input-email {
+    font-size: 15px;
+    width: 299px;
+    border-radius: 5px;
+    padding: 3px 6px;
+    border: none;
+}
+
+.input-message {
+    border-radius: 6px;
+    border: none;
+    margin: 9px 0;
+}
+
+.submit {
+    width: 607px;
+    background-color: #0dad55;
+    color: #e1e1e6;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: #077539;
+} 
