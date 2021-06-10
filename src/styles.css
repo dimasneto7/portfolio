@@ -195,15 +195,9 @@ a {
 
 .project-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 40px;
-}
-
-@media only screen and (max-width: 1000px) {
-    .project-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
 }
 
 .project-card {
@@ -211,7 +205,7 @@ a {
     height: 400px;
     box-shadow: 5px 5px 20px rgb(172, 170, 170);
     border-radius: 10px;
-    margin: 10px;
+    margin: 30px;
 }
 
 .project-box-image {
