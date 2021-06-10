@@ -205,7 +205,14 @@ a {
     height: 400px;
     box-shadow: 5px 5px 20px rgb(172, 170, 170);
     border-radius: 10px;
-    margin: 30px;
+    margin: 50px;
+};
+
+@media only screen and (max-width: 1000px) {
+    .project-card {
+        width: 500px;
+        height: 650px;
+    }
 }
 
 .project-box-image {
