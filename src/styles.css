@@ -302,6 +302,11 @@ a {
     }
 }
 
+.form-content {
+    display: flex;
+    flex-direction: column;
+}
+
 .input-name {
     font-size: 15px;
     margin-right: 5px;
