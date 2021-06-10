@@ -197,7 +197,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 40px;
+    padding: 0 40px 0 40px;
 }
 
 .project-card {
@@ -205,15 +205,8 @@ a {
     height: 400px;
     box-shadow: 5px 5px 20px rgb(172, 170, 170);
     border-radius: 10px;
-    margin: 50px;
+    margin-bottom: 60px ;
 };
-
-@media only screen and (max-width: 1000px) {
-    .project-card {
-        width: 500px;
-        height: 650px;
-    }
-}
 
 .project-box-image {
     height: 210px;
