@@ -302,23 +302,30 @@ a {
     }
 }
 
+
 .form-content {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;    
 }
 
-.input-name {
-    font-size: 15px;
-    margin-right: 5px;
-    width: 304px;
-    border-radius: 5px;
-    padding: 7px 7px;
-    border: none;
+.form-content p{
+    font-size: 25px;  
+}
+
+@media only screen and (max-width: 1000px) {
+    .form-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-content-p {
+        margin-bottom: 35px;
+    }
 }
 
 .input-email {
     font-size: 15px;
-    width: 304px;
     border-radius: 5px;
     padding: 7px 7px;
     border: none;
@@ -332,14 +339,14 @@ a {
 }
 
 .submit {
-    width: 621px;
     background-color: #0dad55;
     color: #e1e1e6;
-    padding: 7px;
+    padding: 7px 15px;
     font-size: 15px;
     border-radius: 7px;
     border: none;
     cursor: pointer;
+    width: 313px;
 }
 
 .submit:hover {

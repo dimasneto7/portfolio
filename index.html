@@ -132,22 +132,28 @@
     </section>  
     <footer id="contact">
         <h2>Contato</h2>
-        <form class="form-content" action="https://formsubmit.co/dimas_fcn@outlook.com" method="POST">
-            <input type="hidden" name="_subject" value="New submission!">
-            <div>
-                <input type="text" name="name" placeholder="Nome" rols="5" required class="input-name">
-                <input type="email" name="email" placeholder="E-mail" required class="input-email">
-                <br>
+        <div class="form-content">
+            <div class="form-content-p">
+                <p>(11) 97233-4851</p>
+                <p>dimas_fcn@outlook.com</p>
             </div>
             <div>
-                <textarea placeholder="Mensagem..." name="message" cols="40" rows="8" required class="input-message"></textarea>
-                <br>
-            </div>
-            <div>
-                <button type="submit" class="submit">Enviar e-mail</button>
-            </div>
-            
-       </form> 
+                <form action="https://formsubmit.co/dimas_fcn@outlook.com" method="POST">
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <div>
+                        <input type="email" name="email" placeholder="E-mail" required class="input-email">
+                        <br>
+                    </div>
+                    <div>
+                        <textarea placeholder="Mensagem..." name="message" cols="18" rows="8" required class="input-message"></textarea>
+                        <br>
+                    </div>
+                    <div>
+                        <button type="submit" class="submit">Enviar</button>
+                    </div>                
+               </form> 
+            </div>   
+        </div>     
     </footer>
         
 
