@@ -202,17 +202,7 @@ a {
 
 @media only screen and (max-width: 1000px) {
     .project-container {
-        display: grid;
-        grid-template-columns: auto;      
-    }
-
-    .project-card {
-        width: 500px;
-        height: 450px;
-    }
-
-    .project-image {
-        width: 500px;
+        padding: auto;
     }
 }
 
