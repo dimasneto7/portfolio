@@ -200,6 +200,12 @@ a {
     padding: 0 40px 0 40px;
 }
 
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: grid;
+    }
+}
+
 .project-card {
     width: 350px;
     height: 400px;
